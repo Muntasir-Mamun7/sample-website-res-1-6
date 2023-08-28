@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script
+      src="https://kit.fontawesome.com/dacf06da2a.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="container-lg">
+    <!-- header  -->
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Your Logo</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-bold" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-bold" href="#">Link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-bold" href="#">About</a>
+              </li>
+            </ul>
+
+            <button class="btn btn-outline-success" type="submit">Login</button>
+          </div>
+        </div>
+      </nav>
+      <!-- slider  -->
+      <div
+        id="carouselExampleInterval"
+        class="carousel slide bg-danger bg-opacity-10 rounded-3 p-3"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <div class="row">
+              <div class="col-12 col-md-6 d-flex align-items-center">
+                <div>
+                  <h1>Anything h1</h1>
+                  <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Rem fugit tempore ut consequuntur corporis voluptas possimus
+                    aut consectetur inventore. Consequuntur reiciendis alias
+                    sequi aut. Atque minima explicabo fuga odit esse!
+                  </p>
+                  <button class="btn btn-danger">Purchase</button>
+                </div>
+              </div>
+              <div class="col-12 col-md-6">
+                <img
+                  src="Images/same-size-pic/pose-1.png"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="10000">
+            <div class="row">
+              <div class="col-12 col-md-6 d-flex align-items-center">
+                <div>
+                  <h1>Anything h1</h1>
+                  <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Rem fugit tempore ut consequuntur corporis voluptas possimus
+                    aut consectetur inventore. Consequuntur reiciendis alias
+                    sequi aut. Atque minima explicabo fuga odit esse!
+                  </p>
+                  <button class="btn btn-danger">Purchase</button>
+                </div>
+              </div>
+              <div class="col-12 col-md-6">
+                <img
+                  src="Images/same-size-pic/pose-2.png"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item active" data-bs-interval="10000">
+            <div class="row">
+              <div class="col-12 col-md-6 d-flex align-items-center">
+                <div>
+                  <h1>Anything h1</h1>
+                  <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Rem fugit tempore ut consequuntur corporis voluptas possimus
+                    aut consectetur inventore. Consequuntur reiciendis alias
+                    sequi aut. Atque minima explicabo fuga odit esse!
+                  </p>
+                  <button class="btn btn-danger">Purchase</button>
+                </div>
+              </div>
+              <div class="col-12 col-md-6">
+                <img
+                  src="Images/same-size-pic/pose-3.png"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleInterval"
+          data-bs-slide="prev"
+        >
+          <span
+            class="prev-icon carousel-control-prev-icon"
+            aria-hidden="true"
+          ></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleInterval"
+          data-bs-slide="next"
+        >
+          <span
+            class="next-icon carousel-control-next-icon"
+            aria-hidden="true"
+          ></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </header>
+    <!-- main  -->
+    <main>
+      <!-- Hot Items section ] -->
+      <section class="text-center text-md-center mt-5">
+        <h1>Hot Items In This Year</h1>
+        <p class="text-danger">Best Items collection</p>
+        <hr class="w-25 mx-auto border-warning" />
+        <div class="row row-cols-1 g-5 row-cols-sm-2 row-cols-md-3 px-5">
+          <div class="col">
+            <img class="w-100" src="Images/same-size-pic/pose-6.png" alt="" />
+          </div>
+          <div class="col">
+            <img class="w-100" src="Images/same-size-pic/pose-6.png" alt="" />
+          </div>
+          <div class="col">
+            <img class="w-100" src="Images/same-size-pic/pose-6.png" alt="" />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- .new arrival section  -->
+    <section class="bg-info bg-opacity-25 rounded py-5 px-3 mt-5">
+      <h1 class="text-center">New Arrival</h1>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100 rounded-4">
+            <img
+              src="Images/same-size-pic/pose-8.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                This is a wider card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+            </div>
+            <div class="card-footer">
+              <button class="btn btn-outline-danger">Purchase</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 rounded-4">
+            <img
+              src="Images/same-size-pic/pose-9.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                This card has supporting text below as a natural lead-in to
+                additional content.
+              </p>
+            </div>
+            <div class="card-footer">
+              <button class="btn btn-outline-danger">Purchase</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 rounded-4">
+            <img
+              src="Images/same-size-pic/pose-4.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                This is a wider card with supporting text below as a natural
+                lead-in to additional content. This card has even longer content
+                than the first to show that equal height action.
+              </p>
+            </div>
+            <div class="card-footer">
+              <button class="btn btn-outline-danger">Purchase</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- happy clients  -->
+    <section class="mt-5">
+      <h1 class="text-center py-5">
+        Happy <span class="text-warning">Clients</span>
+      </h1>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card text-center h-100">
+            <div class="card-body">
+              <p class="card-text">This is a short card.</p>
+              <p class="text-warning">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+              </p>
+              <h5 class="text-primary">Lee Son</h5>
+              <p>Banker, Nanjing</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card text-center h-100">
+            <div class="card-body">
+              <p class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content.
+              </p>
+              <p class="text-warning">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+              </p>
+              <h5 class="text-primary">Lee Son</h5>
+              <p>Banker, Nanjing</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card text-center h-100">
+            <div class="card-body">
+              <p class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+              <p class="text-warning">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+              </p>
+              <h5 class="text-primary">Lee Son</h5>
+              <p>Banker, Nanjing</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- frequently asked questions -->
+
+    <section class="mt-5 py-5 px-3 bg-secondary-subtle rounded">
+      <h1 class="mt-5 text-center">
+        frequently Asked <span class="text-warning">Questions</span>
+      </h1>
+      <div class="row row-cols-1 row-cols-md-2 mt-5 g-4">
+        <div class="col text-center">
+          <img
+            class="w-100"
+            src="Images/same-size-pic/114678-big-hero-6-cartoon-baymax-hiro-hamada-emotions-review-3d-watch-hd-best-animation-movies-of-2015.jpg"
+            alt=""
+          />
+        </div>
+        <div class="col">
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne"
+                  aria-expanded="true"
+                  aria-controls="collapseOne"
+                >
+                  Accordion Item #1
+                </button>
+              </h2>
+              <div
+                id="collapseOne"
+                class="accordion-collapse collapse show"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <strong>This is the first item's accordion body.</strong> It
+                  is shown by default, until the collapse plugin adds the
+                  appropriate classes that we use to style each element. These
+                  classes control the overall appearance, as well as the showing
+                  and hiding via CSS transitions. You can modify any of this
+                  with custom CSS or overriding our default variables. It's also
+                  worth noting that just about any HTML can go within the
+                  <code>.accordion-body</code>, though the transition does limit
+                  overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="collapseTwo"
+                >
+                  Accordion Item #2
+                </button>
+              </h2>
+              <div
+                id="collapseTwo"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <strong>This is the second item's accordion body.</strong> It
+                  is hidden by default, until the collapse plugin adds the
+                  appropriate classes that we use to style each element. These
+                  classes control the overall appearance, as well as the showing
+                  and hiding via CSS transitions. You can modify any of this
+                  with custom CSS or overriding our default variables. It's also
+                  worth noting that just about any HTML can go within the
+                  <code>.accordion-body</code>, though the transition does limit
+                  overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree"
+                  aria-expanded="false"
+                  aria-controls="collapseThree"
+                >
+                  Accordion Item #3
+                </button>
+              </h2>
+              <div
+                id="collapseThree"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <strong>This is the third item's accordion body.</strong> It
+                  is hidden by default, until the collapse plugin adds the
+                  appropriate classes that we use to style each element. These
+                  classes control the overall appearance, as well as the showing
+                  and hiding via CSS transitions. You can modify any of this
+                  with custom CSS or overriding our default variables. It's also
+                  worth noting that just about any HTML can go within the
+                  <code>.accordion-body</code>, though the transition does limit
+                  overflow.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer  -->
+
+    <footer></footer>
+
+    <!-- bootstrap js  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
